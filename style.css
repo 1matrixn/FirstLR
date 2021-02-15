@@ -1,0 +1,100 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+ 	margin: auto 0; 
+}
+#bar {
+ 	height: 100px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 0 31px rgba(0,0,0,0.5);
+	position: sticky;
+  	top: 0;
+}
+#bar p {
+	font-weight: normal;
+	font-size: 24px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 36px;
+}
+#bar img {
+	float: left;
+	margin-left: 29px;
+	margin-top: 13px;
+}
+.yellow-line {
+	height: 100px;
+	width: 5px;
+	background-color: #FCDE06;
+	float: right;
+}
+.blue-bar {
+	height: 100px;
+	width: 1027px;
+	background-color: #0052D0;
+	color: white;
+	float: right;
+}
+#bar .blue-bar p,a {
+	font-weight: normal;
+	font-size: 24px;
+	float: left;
+	margin-left: 31px;
+	margin-top: 36px;
+}
+.blue-bar a {
+	color: white; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+.blue-bar a:hover {
+	color: yellow; /* Цвет ссылки при наведении на нее курсора мыши */  
+    transition: background-position 275ms ease;
+}
+span {
+	padding: 5px 14px;
+	width: 97px;
+	max-width: 440px;
+	background: #f2c94c;
+	text-align: center;
+	border-radius: 3px;
+}
+#content div {
+	margin-bottom: 30px;
+}
+#content {
+	padding-left: 41px;
+	padding-right: 41px;
+	font-size: 18px;
+}
+.input {
+	width: 362px;
+	height: 45px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid #b8b8b8;
+	background-color: #f4ecec;
+	margin-top: 10px;
+}
+input::placeholder {
+	color: #aaaaaa;
+	font-size: 18px;
+	text-align: center;
+}
+#checkbox {
+	width: 422px;
+}
+.checkbox {
+	width: 24px;
+	height: 24px;
+}
+.button {
+	font-size: 18px;
+	width: 362px;
+	height: 45px;
+	background-color: #0052d0;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
